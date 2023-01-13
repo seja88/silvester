@@ -1,0 +1,60 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    /* font-family: 'Love Ya Like A Sister', cursive; */
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    
+}
+
+.container {
+    /* background: url(../img/flower-1377453_1920.jpg); */
+    background: linear-gradient(to right, #ff69b4, #ffc3a0);
+    background-position:left;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #333;
+    margin: 0 auto;
+    max-width: 800px;
+    position: relative;
+  }
+
+h1 {
+    border-bottom: 2px solid #fff;
+    font-size: 36px;
+    color: #fff;
+    margin-top: 50px;
+    text-shadow: 2px 2px 4px #333;
+}
+
+p {
+    font-size: 18px;
+    font-family: 'Pacifico';
+    width: 200px;
+    padding: 10px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 50px;
+    position: absolute;
+    top: 300px;
+}
+
+img {
+      width: 50%;
+      /* border: 10px solid #fff;
+      box-shadow: 2px 2px 4px #333;
+      border-radius: 20px; */
+      padding: 10px;
+      margin: 20px;
+}
